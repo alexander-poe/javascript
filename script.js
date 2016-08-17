@@ -1,6 +1,6 @@
 var input = document.querySelector(".fizzbuzz");
 
-for (var i = 1; i <= 20; i++) {
+for (var i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         input.innerHTML +="FizzBuzz <br />";
     } else if (i % 3 === 0) {
